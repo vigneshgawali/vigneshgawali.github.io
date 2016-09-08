@@ -257,6 +257,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   overflow: hidden;
 }
 .photo img{
+  content: url('../images/dp_crop.png');
  -webkit-border-radius: 4px;
  -moz-border-radius: 4px;
  border-radius: 4px;
@@ -338,6 +339,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* WorkExperience */
+
 .work li{
   border-bottom: 1px solid #f1f1f1;
   margin-bottom: 2em;
@@ -350,6 +352,15 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .work li p{
   clear: both;
+}
+
+.workdesc{
+  list-style: disc;
+}
+
+.bullets li{
+  margin-bottom: 2em; 
+  border-bottom: 0px;
 }
 
 /* Portfolio */
@@ -440,7 +451,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .label {
   display: inline;
   padding: .25em .6em;
-  font-size: 75%;
+  font-size: 80%;
   font-weight: 500;
   line-height: 1;
   color: #ffffff;
@@ -501,6 +512,17 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* Meters */
+
+.meternone { 
+  height: 24px;  /* Can be anything */
+  position: relative;
+  border: 0px solid #f1f1f1;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
 .meter { 
   height: 24px;  /* Can be anything */
   position: relative;

@@ -14,14 +14,14 @@
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png"> -->
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/font-awesome.min.css"> 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.0.min.js"><\/script>')</script>
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="https://use.fontawesome.com/f4f3f794c8.js"></script>
 
   <script src="js/main.js"></script>
   <!--[if lt IE 9]>
@@ -52,16 +52,16 @@
           <!-- Tab List -->
             <ul class='etabs'>
                 <li class='tab' id="tab-about">
-                  <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
+                  <a href="#about"><i class="fa fa-user" aria-hidden="true"></i><span> About Me</span></a>
                 </li>
                 <li class='tab'>
-                  <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
+                  <a href="#resume"><i class="fa fa-file-text" aria-hidden="true"></i><span> Resume</span></a>
                 </li>
                 <li class='tab'>
-                  <a href="#portfolio"><i class="icon-code"></i><span> Projects</span></a>
+                  <a href="#portfolio"><i class="fa fa-code" aria-hidden="true"></i><span> Projects</span></a>
                 </li>
                 <li class='tab'>
-                  <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
+                  <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i><span> Contact</span></a>
                 </li>
             </ul>
           <!-- End Tab List -->
@@ -89,51 +89,37 @@
                         </div>
                         <div class="g1">
                             <div class="main-links sidebar">
-                                <!-- <ul>
-                                    <li>
-                                        <a href="#resume">View My Resume</a>
-                                    </li>
-                                    <li>
-                                        <a href="#portfolio">My Portfolio</a>
-                                    </li>
-                                    <li>
-                                        <a href="#contact">Hire me for your next project</a>
-                                    </li>
-                                </ul> -->
                                 <div class="contact-info">
+                                    <div class="item-box clearfix">
+                                        <i class="fa fa-envelope"></i>
+                                        <div class="item-data">
+                                            <h3><a href="mailto:vignesh.gawali@nyu.edu">vignesh.gawali@nyu.edu</a></h3>
+                                            <!-- <p>Email Address</p> -->
+                                        </div>
+                                    </div>
                           
-                            <div class="item-box clearfix">
-                              <i class="icon-envelope"></i>
-                              <div class="item-data">
-                                <h3><a href="mailto:vignesh.gawali@nyu.edu">vignesh.gawali@nyu.edu</a></h3>
-                                <p>Email Address</p>
-                              </div>
-                            </div>
+                                    <div class="break"></div>
                           
-                          <div class="break"></div>
+                                    <div class="item-box clearfix">
+                                        <i class="fa fa-facebook"></i>
+                                        <div class="item-data">
+                                            <h3><a href="http://fb.me/vignesh.gawali">vignesh.gawali</a></h3>
+                                            <!-- <p>Facebook Profile</p> -->
+                                        </div>
+                                    </div>
                           
-                            <div class="item-box clearfix">
-                              <i class="icon-facebook"></i>
-                              <div class="item-data">
-                                <h3><a href="http://fb.me/vignesh.gawali">vignesh.gawali</a></h3>
-                                <p>Facebook Profile</p>
-                              </div>
-                            </div>
+                                    <div class="break"></div>
                           
-                          <div class="break"></div>
-                          
-                            <div class="item-box clearfix">
-                              <i class="icon-linkedin"></i>
-                              <div class="item-data">
-                                <h3><a href="https://www.linkedin.com/in/vigneshgawali">vigneshgawali</a></h3>
-                                <p>LinkedIn Profile</p>
-                              </div>
-                            </div>
-                          
-                        </div>
+                                    <div class="item-box clearfix">
+                                        <i class="fa fa-linkedin"></i>
+                                        <div class="item-data">
+                                            <h3><a href="https://www.linkedin.com/in/vigneshgawali">vigneshgawali</a></h3>
+                                            <!-- <p>LinkedIn Profile</p> -->
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
                     </section><!-- content -->
                 </div>
               <!-- End About Tab Data -->
@@ -245,7 +231,11 @@
                                 </div>
                                                                 
                                 <div class="break"></div>
-                                
+
+                                <a href="https://drive.google.com/file/d/0B_nn69nADEG4UDcxYy1ZRjdScHc/view?usp=sharing" target="_blank"">
+                                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span> Download Resume</span>
+                                </a>
                             </div>
                         </div>
                     </section>
@@ -360,41 +350,45 @@
               <!-- Contact Tab Data -->
                 <div id="contact">
                     <section class="clearfix">
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-home"></i>
+                        <h6 align="center">I would love to hear back from you. If you need to contact me, I'm just an email away.</h6>
+                        <div class="g1">
+                            <div class="sny-icon-box">
+                                <div class="sny-icon">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                </div>
+                                <div class="sny-icon-content">
+                                    <!-- <h5>My Address</h5> -->
+                                    <p>644 55th Street, #1, Brooklyn, NY - 11220</p>
+                                </div>
                             </div>
-                            <div class="sny-icon-content">
-                              <h5>My Address</h5>
-                              <p>644 55th Street, #1, Brooklyn, NY - 11220</p>
-                            </div>
-                         </div>
                        </div>
-                       <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-phone"></i>
+                       
+                        <div class="g1">
+                            <div class="sny-icon-box">
+                                <div class="sny-icon">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="sny-icon-content">
+                                    <!-- <h5>Mobile Number</h5> -->
+                                    <p>(+1) 929-294-1230</p>
+                                </div>
                             </div>
-                            <div class="sny-icon-content">
-                              <h5>Mobile Number</h5>
-                              <p>(+1) 929-294-1230</p>
-                            </div>
-                         </div>
                        </div>
+                       
                        <div class="g1">
-                         <div class="sny-icon-box">
-                           <div class="sny-icon">
-                              <i class="icon-envelope"></i>
+                            <div class="sny-icon-box">
+                                <div class="sny-icon">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="sny-icon-content">
+                                    <!-- <h5>Email</h5> -->
+                                    <p><a href="mailto:vignesh.gawali@nyu.edu">vignesh.gawali@nyu.edu</a>
+                                    <a href="mailto:vignesh.gawali@gmail.com">vignesh.gawali@gmail.com</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="sny-icon-content">
-                              <h5>Email</h5>
-                              <p><a href="mailto:vignesh.gawali@nyu.edu">vignesh.gawali@nyu.edu</a></p>
-                            </div>
-                         </div>
                        </div>
                        <div class="break"></div>
-                       
                     </section>
                 </div>
               <!-- End Contact Data -->

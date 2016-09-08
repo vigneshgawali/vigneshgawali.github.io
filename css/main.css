@@ -160,6 +160,12 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding-bottom: 1em;
   clear: both;
 }
+
+.break-border{
+  padding-bottom: 1em;
+  clear: both;
+  border: 1px solid #F1F1F1;
+}
 /* Backgrounds */
 
 .bg-1{
@@ -257,7 +263,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   overflow: hidden;
 }
 .photo img{
-  content: url('../images/dp_crop.jpg');
+  content: url('../images/dp_crop-min.jpg');
  -webkit-border-radius: 4px;
  -moz-border-radius: 4px;
  border-radius: 4px;
@@ -324,7 +330,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 }
 .item-box .item-data{
- margin-top: 6px;
+ margin-top: 15px;
 }
 .item-box .item-data h3{
   line-height: 1em;
